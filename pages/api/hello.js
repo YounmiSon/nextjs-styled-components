@@ -1,5 +1,4 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
 export default function handler(req, res) {
-  res.status(200).json({ name: 'John Doe' })
+  // express.js와 같은 백엔드 패턴에 따라 응답
+  res.status(200).json({ name: "test_name" });
 }
